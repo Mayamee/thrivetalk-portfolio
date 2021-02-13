@@ -11,10 +11,6 @@ html,
 body {
   height: 100%;
 }
-// ======================
-@import "header";
-@import "bord";
-// ======================
 .container {
   margin: 0 auto;
   padding: 0 20px;
@@ -29,4 +25,13 @@ body {
 .bd {
   border: 5px dashed $darkblue;
 }
+.title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+// ======================
+@import "header";
+@import "bord";
+@import "why";
+// ======================
 @import "media";
