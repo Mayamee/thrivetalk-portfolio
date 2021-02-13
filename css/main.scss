@@ -1,0 +1,32 @@
+@import "colors";
+@import "fonts";
+@import "normalize";
+body {
+  font-size: 20px;
+  color: $blue;
+  background-color: #fff;
+  font-family: "Larsseit", "Lato", sans-serif;
+}
+html,
+body {
+  height: 100%;
+}
+// ======================
+@import "header";
+@import "bord";
+// ======================
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1090px;
+  //   background-color: rgb(109, 98, 98);
+}
+.accent {
+  font-size: 24px;
+  font-weight: bold;
+  color: $marine;
+}
+.bd {
+  border: 5px dashed $darkblue;
+}
+@import "media";

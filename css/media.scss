@@ -1,0 +1,82 @@
+$burgerColor: #000;
+@media (max-width: 768px) {
+  body.lock {
+    overflow: hidden;
+  }
+  .header {
+    color: #fff;
+    &::before {
+      z-index: 7;
+    }
+    &__frame {
+      align-items: center;
+    }
+    &__burger {
+      display: block;
+      position: relative;
+      width: 30px;
+      height: 20px;
+      &::after,
+      &::before {
+        content: "";
+        background-color: $burgerColor;
+        position: absolute;
+        left: 0;
+        height: 2px;
+        width: 100%;
+      }
+      &::before {
+        top: 0;
+        transition: all 0.3s ease;
+      }
+      &::after {
+        bottom: 0;
+        transition: all 0.3s ease;
+      }
+      & > span {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background-color: $burgerColor;
+        height: 2px;
+        top: 9px;
+      }
+    }
+    &__nav {
+      overflow: auto;
+      font-size: 20px;
+      position: fixed;
+      padding: 100px 0 0;
+      text-align: left;
+      top: -1100px;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: $darkblue;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-end;
+      transition: all 0.3s ease;
+      &.active {
+        top: 0;
+      }
+    }
+    &__button-block {
+    }
+    &__button {
+      display: none;
+    }
+    &__nav-element {
+      padding: 10px 20px 0px 10px;
+      &:hover {
+        border-bottom: 1px solid #fff;
+      }
+    }
+  }
+  //   bord
+  .bord {
+  }
+}
+@media (min-width: 768px) {
+}

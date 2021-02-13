@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@font-face {
+  font-family: "Larsseit";
+  src: url("../fonts/Larsseit.eot");
+  src: local("☺"), url("../fonts/Larsseit.woff") format("woff"),
+    url("../fonts/Larsseit.ttf") format("truetype"),
+    url("../fonts/Larsseit.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+// regural
+@font-face {
+  font-family: "Larsseit";
+  src: url("../fonts/Larsseit-Bold.eot");
+  src: local("☺"), url("../fonts/Larsseit-Bold.woff") format("woff"),
+    url("../fonts/Larsseit-Bold.ttf") format("truetype"),
+    url("../fonts/Larsseit-Bold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+//   bold
+@font-face {
+  font-family: "Larsseit";
+  src: url("../fonts/Larsseit-Medium.eot");
+  src: local("☺"), url("../fonts/Larsseit-Medium.woff") format("woff"),
+    url("../fonts/Larsseit-Medium.ttf") format("truetype"),
+    url("../fonts/Larsseit-Medium.svg") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+// medium
