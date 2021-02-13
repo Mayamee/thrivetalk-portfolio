@@ -13,7 +13,7 @@ body {
 }
 .container {
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 15px;
   max-width: 1090px;
   //   background-color: rgb(109, 98, 98);
 }
@@ -33,5 +33,6 @@ body {
 @import "header";
 @import "bord";
 @import "why";
+@import "about";
 // ======================
 @import "media";
